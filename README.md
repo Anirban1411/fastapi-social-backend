@@ -63,12 +63,19 @@ Features include users, authentication, post creation/update/delete — modular 
 4.Create a .env file (example values):
 
 DATABASE_HOSTNAME=localhost
+
 DATABASE_PORT=5432
+
 DATABASE_USERNAME=your_db_user
+
 DATABASE_PASSWORD=your_db_password
+
 DATABASE_NAME=your_db_name
+
 SECRET_KEY=your_secret_key
+
 ALGORITHM=HS256
+
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 5. Run database migrations or create tables (according to your ORM setup).
