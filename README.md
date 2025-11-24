@@ -16,14 +16,23 @@ Features include users, authentication, post creation/update/delete — modular 
 
 .
 ├── main.py # FastAPI app entry point
+
 ├── config.py # Configuration (env variables)
+
 ├── database.py # Database connection / session setup
+
 ├── models.py # ORM models
+
 ├── schemas.py # Pydantic schemas
+
 ├── oauth2.py # JWT / token utilities
+
 ├── utils.py # Utility functions (hashing, etc)
+
 ├── routers/ # Routers: users, posts, auth 
+
 ├── requirements.txt # Python dependencies
+
 └── .env # Environment variables (excluded from source)
 
 
