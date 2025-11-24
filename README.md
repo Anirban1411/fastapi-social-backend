@@ -1,14 +1,14 @@
 # fastapi-social-backend
 
 A backend API built with [FastAPI](https://fastapi.tiangolo.com/) for a social-media-style application.  
-Features include users, authentication, post creation/update/delete, voting (likes/dislikes) — modular and ready for extension.
+Features include users, authentication, post creation/update/delete — modular and ready for extension.
 
 ## 📋 Features
 
 - User registration & login (JWT-based)  
 - Post CRUD: create, read, update, delete posts  
 - Voting system: likes and dislikes (votes)  
-- Modular architecture: routers for users, posts, auth (and optionally votes)  
+- Modular architecture: routers for users, posts, auth   
 - Configuration via environment variables  
 - SQLAlchemy (or similar ORM) + relational database support  
 - Pydantic models & schemas for data validation  
@@ -23,7 +23,7 @@ Features include users, authentication, post creation/update/delete, voting (lik
 ├── schemas.py # Pydantic schemas
 ├── oauth2.py # JWT / token utilities
 ├── utils.py # Utility functions (hashing, etc)
-├── routers/ # Routers: users, posts, auth (and votes)
+├── routers/ # Routers: users, posts, auth 
 ├── requirements.txt # Python dependencies
 └── .env # Environment variables (excluded from source)
 
@@ -74,8 +74,6 @@ Use the /users router for signup & CRUD user operations.
 Use the /auth router for login & token generation.
 
 Use the /posts router for creating, reading, updating, and deleting posts.
-
-Voting functionality can be toggled or extended based on current requirements.
 
 ## Author
 
