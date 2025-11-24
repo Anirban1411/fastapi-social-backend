@@ -6,8 +6,7 @@ Features include users, authentication, post creation/update/delete — modular 
 ## 📋 Features
 
 - User registration & login (JWT-based)  
-- Post CRUD: create, read, update, delete posts  
-- Voting system: likes and dislikes (votes)  
+- Post CRUD: create, read, update, delete posts   
 - Modular architecture: routers for users, posts, auth   
 - Configuration via environment variables  
 - SQLAlchemy (or similar ORM) + relational database support  
